@@ -19,5 +19,12 @@ export function getRandomElements(array: Question[], numElements: number) {
         copyArray.splice(randomIndex, 1);
     }
     console.log(randomElements, 'randomelements');
-    return randomElements;
+
+    const shuffledAnswers = randomElements.map((item) => {
+        return {
+            ...item,
+            answers: shuffleAnswers(item.answers)
+        }
+    })
+    return shuffledAnswers;
 }
