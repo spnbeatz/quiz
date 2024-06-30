@@ -1,0 +1,1263 @@
+[
+    {
+        "question": "Czym jest potrzeba?",
+        "answers": [
+            {
+                "answer": "Potrzeba to stan braku odczuwany przez jednostkę lub grupę, którego zaspokojenie jest warunkiem ich egzystencji, rozwoju lub satysfakcji.",
+                "valid": "true"
+            },
+            {
+                "answer": "Potrzeba to pragnienie luksusu, które nie ma wpływu na rozwój ani egzystencję człowieka",
+                "valid": "false"
+            },
+            {
+                "answer": "Potrzeba to wyłącznie stan braku dóbr materialnych, nie dotyczący innych aspektów życia",
+                "valid": "false"
+            },
+            {
+                "answer": "Potrzeba to sytuacja, w której jednostka ma nadmiar zasobów i poszukuje sposobu ich zagospodarowania",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych stwierdzeń poprawnie opisuje dobra wolne?",
+        "answers": [
+            {
+                "answer": "Dobra wolne to zasoby naturalne występujące w nieograniczonej ilości, takie jak powietrze i energia słoneczna, które są dostępne za darmo",
+                "valid": "true"
+            },
+            {
+                "answer": "Dobra wolne to towary materialne, które można kupić bez ograniczeń ilościowych w dowolnym sklepie",
+                "valid": "false"
+            },
+            {
+                "answer": "Dobra wolne to usługi wykonywane przez specjalistów, takie jak konserwacja i naprawy, które są darmowe dla użytkowników",
+                "valid": "false"
+            },
+            {
+                "answer": "Dobra wolne to produkty luksusowe, które są dostępne tylko dla wybranych grup ludzi i są bardzo kosztowne",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Który z poniższych zasobów nie jest zaliczany do klasycznych czynników produkcji?",
+        "answers": [
+            {
+                "answer": "Technologia",
+                "valid": "true"
+            },
+            {
+                "answer": "Praca",
+                "valid": "false"
+            },
+            {
+                "answer": "Ziemia",
+                "valid": "false"
+            },
+            {
+                "answer": "Kapitał",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Jak określany jest problem wynikający z nieograniczonych potrzeb i ograniczonych zasobów?",
+        "answers": [
+            {
+                "answer": "Problem rzadkości",
+                "valid": "true"
+            },
+            {
+                "answer": "Problem nadmiaru",
+                "valid": "false"
+            },
+            {
+                "answer": "Problem inflacji",
+                "valid": "false"
+            },
+            {
+                "answer": "Problem nadprodukcji",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co to jest koszt alternatywny?",
+        "answers": [
+            {
+                "answer": "Koszt utraconych korzyści z innego sposobu wykorzystania zasobów.",
+                "valid": "true"
+            },
+            {
+                "answer": "Koszt związany z nadprodukcją dóbr.",
+                "valid": "false"
+            },
+            {
+                "answer": "Koszt występujący tylko w przypadku zasobów nieodnawialnych.",
+                "valid": "false"
+            },
+            {
+                "answer": "Koszt wynikający z nieefektywnej alokacji zasobów.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Jakie jest podstawowe zadanie ekonomii?",
+        "answers": [
+            {
+                "answer": "Analizowanie, jak ludzie zarządzają zasobami w warunkach ich rzadkości.",
+                "valid": "true"
+            },
+            {
+                "answer": "Projektowanie nowych technologii produkcji.",
+                "valid": "false"
+            },
+            {
+                "answer": "Prognozowanie trendów pogodowych wpływających na rolnictwo.",
+                "valid": "false"
+            },
+            {
+                "answer": "Określanie najlepszych metod marketingowych.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Czym zajmuje się ekonomia w kontekście rzadkości zasobów?",
+        "answers": [
+            {
+                "answer": "Badaniem, jak ludzie dokonują wyborów ekonomicznych i gospodarują zasobami, które są ograniczone w stosunku do potrzeb.",
+                "valid": "true"
+            },
+            {
+                "answer": "Tworzeniem prognoz demograficznych dotyczących liczby dzieci w rodzinach.",
+                "valid": "false"
+            },
+            {
+                "answer": "Analizą wpływu nowych technologii na procesy produkcyjne.",
+                "valid": "false"
+            },
+            {
+                "answer": "Opracowywaniem nowych metod edukacyjnych w zakresie przedsiębiorczości.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Jak niektórzy ekonomiści inaczej definiują ekonomię?",
+        "answers": [
+            {
+                "answer": "Jako naukę o zjawiskach gospodarczych, skupiającą się na produkcji, wymianie, podziale dochodów i konsumpcji.",
+                "valid": "true"
+            },
+            {
+                "answer": "Jako naukę o zarządzaniu ludzkimi emocjami i preferencjami.",
+                "valid": "false"
+            },
+            {
+                "answer": "Jako naukę wyłącznie o rozwoju technologii.",
+                "valid": "false"
+            },
+            {
+                "answer": "Jako naukę o demografii i rozwoju społeczności.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co jest jednym z powodów rozbieżności poglądów w ekonomii?",
+        "answers": [
+            {
+                "answer": "Różne szkoły ekonomiczne przyjmują różne założenia wstępne i mają odmienne punkty widzenia na zjawiska gospodarcze.",
+                "valid": "true"
+            },
+            {
+                "answer": "Ekonomia jest nauką ścisłą, co ogranicza jej elastyczność w interpretacji danych.",
+                "valid": "false"
+            },
+            {
+                "answer": "W ekonomii nie ma żadnych uznanych teorii ani modeli do analizy zjawisk gospodarczych.",
+                "valid": "false"
+            },
+            {
+                "answer": "Wszystkie szkoły ekonomiczne zgadzają się co do podstawowych praw i nie różnią się w interpretacji danych.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Kto jest uważany za „ojca” ekonomii jako nauki i co było sednem jego teorii?",
+        "answers": [
+            {
+                "answer": "Adam Smith, który twierdził, że wolny rynek bez ingerencji państwa zapewnia efektywność gospodarczą i dobrobyt społeczny.",
+                "valid": "true"
+            },
+            {
+                "answer": "Ksenofont, który uważał, że zarządzanie gospodarstwem wymaga centralnego planowania.",
+                "valid": "false"
+            },
+            {
+                "answer": "John Maynard Keynes, który twierdził, że wolny rynek działa najlepiej przy ścisłej kontroli państwowej.",
+                "valid": "false"
+            },
+            {
+                "answer": "Karl Marks, który argumentował, że kapitalizm naturalnie prowadzi do efektywności gospodarczej.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Na czym opiera się założenie o racjonalności podmiotów gospodarujących w niektórych szkołach ekonomicznych?",
+        "answers": [
+            {
+                "answer": "Opiera się na przekonaniu, że podmioty gospodarujące posiadają jasno określone cele oraz zbierają i przetwarzają niezbędne informacje do podejmowania optymalnych decyzji gospodarczych.",
+                "valid": "true"
+            },
+            {
+                "answer": "Opiera się na manipulacji ludzkimi emocjami i biologicznymi instynktami.",
+                "valid": "false"
+            },
+            {
+                "answer": "Opiera się na założeniu, że działania marketingowe są kluczowym elementem procesu racjonalnego podejmowania decyzji.",
+                "valid": "false"
+            },
+            {
+                "answer": "Opiera się na krytyce wobec roli altruizmu w procesie podejmowania decyzji gospodarczych.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co charakteryzuje ekonomię pozytywną?",
+        "answers": [
+            {
+                "answer": "Opisuje obiektywne zjawiska i zależności ekonomiczne.",
+                "valid": "true"
+            },
+            {
+                "answer": "Formułuje oceny i propozycje działania oparte na subiektywnych przekonaniach.",
+                "valid": "false"
+            },
+            {
+                "answer": "Stawia pytania takie jak \"Jak być powinno?\" lub \"Co zrobić, żeby tak było?\".",
+                "valid": "false"
+            },
+            {
+                "answer": "Odpowiada na pytanie \"Co zrobić, żeby zmniejszyć bezrobocie?\".",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co charakteryzuje prognozy ekonomiczne?",
+        "answers": [
+            {
+                "answer": "Są to przypuszczenia co do przyszłych zjawisk gospodarczych.",
+                "valid": "true"
+            },
+            {
+                "answer": "Opisują obiektywne fakty i zależności między zjawiskami gospodarczymi.",
+                "valid": "false"
+            },
+            {
+                "answer": "Są oparte na subiektywnych przekonaniach i wartościach.",
+                "valid": "false"
+            },
+            {
+                "answer": "Są wyłącznie opisami przeszłych wydarzeń gospodarczych.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co jest przedmiotem badań w mikroekonomii?",
+        "answers": [
+            {
+                "answer": "Zachowania podmiotów gospodarczych takich jak przedsiębiorstwa i gospodarstwa domowe na rynkach pojedynczych dóbr.",
+                "valid": "true"
+            },
+            {
+                "answer": "Funkcjonowanie gospodarki kraju poprzez analizę agregatów makroekonomicznych.",
+                "valid": "false"
+            },
+            {
+                "answer": "Analiza dynamiki PKB i stopy bezrobocia.",
+                "valid": "false"
+            },
+            {
+                "answer": "Pomiar współzależności między różnymi rynkami dóbr.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co jest przedmiotem badań mikroekonomii?",
+        "answers": [
+            {
+                "answer": "Wpływ czynników na wielkość produkcji, koszty wytworzenia oraz przychody poszczególnych przedsiębiorstw.",
+                "valid": "true"
+            },
+            {
+                "answer": "Analiza dynamiki PKB i stopy inflacji.",
+                "valid": "false"
+            },
+            {
+                "answer": "Badanie funkcjonowania gospodarki narodowej.",
+                "valid": "false"
+            },
+            {
+                "answer": "Prognozowanie przyszłych tendencji gospodarczych.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co oznacza klauzula ceteris paribus w kontekście praw ekonomicznych?",
+        "answers": [
+            {
+                "answer": "Zakłada, że zmiana jednego czynnika ma wpływ na inny, pod warunkiem że wszystkie pozostałe czynniki pozostają niezmienione.",
+                "valid": "true"
+            },
+            {
+                "answer": "Zakłada, że zmiana jednego czynnika zawsze prowadzi do zmiany wszystkich innych czynników.",
+                "valid": "false"
+            },
+            {
+                "answer": "Oznacza, że wszystkie czynniki wpływające na dany zjawisko muszą być analizowane równocześnie.",
+                "valid": "false"
+            },
+            {
+                "answer": "Zakłada, że zmiany w jednym czynniku nie mają wpływu na inne czynniki.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Dlaczego stosuje się klauzulę ceteris paribus w modelach ekonomicznych?",
+        "answers": [
+            {
+                "answer": "Aby skoncentrować się na analizowanej zmiennej lub zjawisku, pomijając wpływ innych czynników, które mogą być trudne do kontrolowania lub badania.",
+                "valid": "true"
+            },
+            {
+                "answer": "Aby uwzględnić wszystkie możliwe zmienne, które mogą wpływać na analizowane zjawisko.",
+                "valid": "false"
+            },
+            {
+                "answer": "Aby stworzyć idealny model, który nie zawiera żadnych uproszczeń.",
+                "valid": "false"
+            },
+            {
+                "answer": "Aby zwiększyć złożoność analizy i uwzględnić wszystkie aspekty rzeczywistości gospodarczej.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co to jest model ekonomiczny?",
+        "answers": [
+            {
+                "answer": "Teoretycznie uogólnione i uproszczone odwzorowanie fragmentu gospodarki lub zjawiska gospodarczego.",
+                "valid": "true"
+            },
+            {
+                "answer": "Realistyczne odzwierciedlenie całej gospodarki bez uproszczeń.",
+                "valid": "false"
+            },
+            {
+                "answer": "Model matematyczny używany tylko do symulacji finansowych.",
+                "valid": "false"
+            },
+            {
+                "answer": "Opis szczegółowy zależności między poszczególnymi przedsiębiorstwami.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "W jakich formach mogą występować modele ekonomiczne?",
+        "answers": [
+            {
+                "answer": "Forma opisowa, forma matematyczna oraz forma graficzna.",
+                "valid": "true"
+            },
+            {
+                "answer": "Forma słowna, forma kreatywna i forma eksperymentalna.",
+                "valid": "false"
+            },
+            {
+                "answer": "Forma logiczna, forma empiryczna oraz forma teoretyczna.",
+                "valid": "false"
+            },
+            {
+                "answer": "Forma abstrakcyjna, forma syntetyczna oraz forma analityczna.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co oznacza pojęcie 'marginalne' w kontekście mikroekonomii?",
+        "answers": [
+            {
+                "answer": "Określa zmiany korzyści lub kosztów w efekcie zmiany produkcji lub konsumpcji o jednostkę.",
+                "valid": "true"
+            },
+            {
+                "answer": "Jest to całkowita suma korzyści lub kosztów.",
+                "valid": "false"
+            },
+            {
+                "answer": "Oznacza minimalne wymagania produkcyjne.",
+                "valid": "false"
+            },
+            {
+                "answer": "Jest to maksymalna ilość produkcji lub konsumpcji.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Jaką zasadę wykorzystuje się przy analizie marginalnej w podejmowaniu decyzji przez podmioty gospodarujące?",
+        "answers": [
+        {
+        "answer": "Zasadę optymalizacji, porównując korzyści marginalne z kosztami marginalnymi przy zmianach produkcji lub konsumpcji o jednostkę.",
+        "valid": "true"
+        },
+        {
+        "answer": "Zasadę maksymalizacji całkowitych korzyści przy minimalizacji całkowitych kosztów.",
+        "valid": "false"
+        },
+        {
+        "answer": "Zasadę równoważenia zysków i strat.",
+        "valid": "false"
+        },
+        {
+        "answer": "Zasadę minimalizacji ryzyka finansowego.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Które wydarzenie było jednym z głównych źródeł nowoczesnej makroekonomii?",
+        "answers": [
+            {
+                "answer": "Wielki Kryzys z lat 20. i 30. XX wieku",
+                "valid": "true"
+            },
+            {
+                "answer": "Rewolucja przemysłowa",
+                "valid": "false"
+            },
+            {
+                "answer": "Zjednoczenie Niemiec w XIX wieku",
+                "valid": "false"
+            },
+            {
+                "answer": "Pojawienie się mikroekonomii",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Jakie są dwa główne nurty makroekonomii, różniące się w podejściu do roli rządu w gospodarce?",
+        "answers": [
+            {
+                "answer": "Nurt neoklasyczny (neoliberalny) i nurt keynesowski",
+                "valid": "true"
+            },
+            {
+                "answer": "Nurt marksistowski i nurt instytucjonalny",
+                "valid": "false"
+            },
+            {
+                "answer": "Nurt konserwatywny i nurt liberalny",
+                "valid": "false"
+            },
+            {
+                "answer": "Nurt socjalistyczny i nurt kapitalistyczny",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co uważają zwolennicy nurtu neoklasycznego (neoliberalnego) na temat roli rządu w gospodarce?",
+        "answers": [
+            {
+                "answer": "Mechanizm rynkowy jest najlepszym regulatorem gospodarki, a rząd swoimi ingerencjami może tylko popsuć jego działanie.",
+                "valid": "true"
+            },
+            {
+                "answer": "Rząd powinien ingerować w każdy aspekt gospodarki w celu zapewnienia równości dochodów.",
+                "valid": "false"
+            },
+            {
+                "answer": "Rząd powinien kontrolować całkowitą produkcję w gospodarce, aby zapobiec inflacji.",
+                "valid": "false"
+            },
+            {
+                "answer": "Rząd powinien podjąć działania mające na celu całkowite zlikwidowanie sektora prywatnego.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co uważają zwolennicy nurtu keynesowskiego na temat roli rządu w gospodarce?",
+        "answers": [
+            {
+                "answer": "Rynek ma pewne wady i nie zapewnia optymalnej alokacji zasobów, co wymaga ingerencji rządu w gospodarkę; chodzi o korektę mechanizmu rynkowego przy pomocy instrumentów ekonomicznych.",
+                "valid": "true"
+            },
+            {
+                "answer": "Rząd powinien całkowicie zlikwidować sektor prywatny i przejąć kontrolę nad produkcją.",
+                "valid": "false"
+            },
+            {
+                "answer": "Rząd nie powinien angażować się w regulowanie gospodarki, aby nie zakłócać jej naturalnego przebiegu.",
+                "valid": "false"
+            },
+            {
+                "answer": "Rząd powinien ustalać ceny wszystkich produktów na rynku, aby zapewnić równość dochodów.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co jest przedmiotem zainteresowania ekonomii normatywnej?",
+        "answers": [
+            {
+                "answer": "Określenie, jakie decyzje powinny być podejmowane, aby osiągnąć najlepsze wyniki dla społeczeństwa.",
+                "valid": "true"
+            },
+            {
+                "answer": "Analiza faktów ekonomicznych opartych na obiektywnych danych.",
+                "valid": "false"
+            },
+            {
+                "answer": "Przewidywanie przyszłych trendów gospodarczych na podstawie dostępnych danych.",
+                "valid": "false"
+            },
+            {
+                "answer": "Badanie, jak ludzie podejmują decyzje w warunkach ograniczonych zasobów i nieograniczonych potrzeb.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co oznacza pojęcie 'rynek' w sensie dosłownym?",
+        "answers": [
+            {
+                "answer": "Miejsce, gdzie dokonuje się transakcji rynkowych, np. sklep, targowisko czy giełda papierów wartościowych.",
+                "valid": "true"
+            },
+            {
+                "answer": "Zbiór wszystkich miejsc, gdzie występują transakcje rynkowe.",
+                "valid": "false"
+            },
+            {
+                "answer": "Mechanizm regulujący podaż i popyt na rynku.",
+                "valid": "false"
+            },
+            {
+                "answer": "Koncepcja określająca, jak działa gospodarka rynkowa.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Jakie znaczenie ma słowo 'rynek' w kontekście 'rynek jabłek', 'rynek pracy' lub 'rynek pieniężny'?",
+        "answers": [
+            {
+                "answer": "Ogół transakcji rynkowych, w wyniku których kształtują się ceny oraz inne warunki transakcji.",
+                "valid": "true"
+            },
+            {
+                "answer": "Miejsce fizyczne, gdzie odbywają się transakcje wymiany dóbr.",
+                "valid": "false"
+            },
+            {
+                "answer": "Mechanizm regulujący podaż i popyt na danym rynku.",
+                "valid": "false"
+            },
+            {
+                "answer": "Koncepcja określająca, jak działa gospodarka rynkowa.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co oznacza pojęcie 'gospodarka rynkowa'?",
+        "answers": [
+            {
+                "answer": "System gospodarczy, w którym koordynacja działalności podmiotów gospodarczych i alokacja zasobów czynników produkcji odbywa się za pośrednictwem mechanizmu rynkowego.",
+                "valid": "true"
+            },
+            {
+                "answer": "Fizyczne miejsce, gdzie odbywają się transakcje handlowe.",
+                "valid": "false"
+            },
+            {
+                "answer": "System gospodarczy, w którym dominuje centralne planowanie przez władze państwowe.",
+                "valid": "false"
+            },
+            {
+                "answer": "Kraje, w których istnieje tylko jedna forma organizacji gospodarczej.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co charakteryzuje gospodarkę kapitalistyczną?",
+        "answers": [
+            {
+                "answer": "Przeważająca własność prywatna nad czynnikami produkcji.",
+                "valid": "true"
+            },
+            {
+                "answer": "Przeważająca własność państwowa nad czynnikami produkcji.",
+                "valid": "false"
+            },
+            {
+                "answer": "Centralne planowanie gospodarcze.",
+                "valid": "false"
+            },
+            {
+                "answer": "Wyłącznie jeden rodzaj organizacji gospodarczej.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co charakteryzuje gospodarkę socjalistyczną?",
+        "answers": [
+            {
+                "answer": "Przeważająca własność państwowa nad czynnikami produkcji.",
+                "valid": "true"
+            },
+            {
+                "answer": "Przeważająca własność państwowa nad czynnikami produkcji.",
+                "valid": "false"
+            },
+            {
+                "answer": "Centralne planowanie gospodarcze.",
+                "valid": "false"
+            },
+            {
+                "answer": "Wyłącznie jeden rodzaj organizacji gospodarczej.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co charakteryzuje modele gospodarki rynkowej?",
+        "answers": [
+            {
+                "answer": "Zawierają listę założeń upraszczających oraz równania opisujące działanie gospodarki w ramach przyjętych założeń.",
+                "valid": "true"
+            },
+            {
+                "answer": "Nie zawierają równań matematycznych, tylko opisują działanie gospodarki w sposób ogólny.",
+                "valid": "false"
+            },
+            {
+                "answer": "Są dokładnym odwzorowaniem rzeczywistych procesów gospodarczych.",
+                "valid": "false"
+            },
+            {
+                "answer": "Nie potrzebują żadnych założeń, ponieważ odzwierciedlają rzeczywistość w stu procentach.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Na czym opiera się najprostszy model gospodarki rynkowej?",
+        "answers": [
+            {
+                "answer": "Założeniach, że istnieją tylko dwie grupy podmiotów - gospodarstwa domowe i przedsiębiorstwa, oraz że gospodarstwa domowe są jedynymi właścicielami czynników produkcji.",
+                "valid": "true"
+            },
+            {
+                "answer": "Założeniu, że państwo jest głównym właścicielem czynników produkcji.",
+                "valid": "false"
+            },
+            {
+                "answer": "Założeniu, że gospodarstwa domowe nie wydają swoich dochodów na zakup dóbr konsumpcyjnych.",
+                "valid": "false"
+            },
+            {
+                "answer": "Założeniu, że przedsiębiorstwa produkują zarówno dobra konsumpcyjne, jak i inwestycyjne.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Na czym opiera się najprostszy model gospodarki rynkowej?",
+        "answers": [
+            {
+                "answer": "Gospodarstwa domowe wydają całość dochodów z wynajmowania czynników produkcji na zakup dóbr konsumpcyjnych, co oznacza, że nie mają oszczędności, oraz przedsiębiorstwa produkują tylko dobra konsumpcyjne.",
+                "valid": "true"
+            },
+            {
+                "answer": "Państwo jest jedynym właścicielem czynników produkcji, a gospodarstwa domowe nie wydają swoich dochodów na zakup dóbr konsumpcyjnych.",
+                "valid": "false"
+            },
+            {
+                "answer": "Gospodarstwa domowe i przedsiębiorstwa mają wspólną własność czynników produkcji, co prowadzi do optymalnej alokacji zasobów.",
+                "valid": "false"
+            },
+            {
+                "answer": "Przedsiębiorstwa produkują zarówno dobra konsumpcyjne, jak i inwestycyjne, co sprzyja zrównoważonemu rozwojowi gospodarczemu.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "W jaki sposób działają przepływy czynników produkcji w opisanym modelu gospodarki rynkowej?",
+        "answers": [
+        {
+        "answer": "Gospodarstwa domowe wynajmują przedsiębiorstwom czynniki produkcji, takie jak praca, kapitał, ziemia i technologia. Przedsiębiorstwa z kolei płacą gospodarstwom domowym za wynajem tych czynników, używając ich do produkcji dóbr konsumpcyjnych.",
+        "valid": "true"
+        },
+        {
+        "answer": "Przedsiębiorstwa wynajmują gospodarstwom domowym czynniki produkcji, a gospodarstwa domowe używają wynajętych zasobów do produkcji dóbr inwestycyjnych i pośrednich.",
+        "valid": "false"
+        },
+        {
+        "answer": "Gospodarstwa domowe są jedynie konsumentami, nie mającymi wpływu na proces produkcji w przedsiębiorstwach, które zarządzają całością zasobów w gospodarce.",
+        "valid": "false"
+        },
+        {
+        "answer": "Przedsiębiorstwa bezpośrednio sprzedają swoje produkty rządowi, który następnie dystrybuuje je gospodarstwom domowym w wymianie za usługi publiczne.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Co oznacza komplikacja modelu gospodarki rynkowej poprzez uchylenie założeń dotyczących oszczędności gospodarstw domowych oraz dóbr inwestycyjnych i pośrednich?",
+        "answers": [
+        {
+        "answer": "Uchylenie założenia dotyczącego oszczędności oznacza uwzględnienie faktu, że gospodarstwa domowe nie wydają całego swojego dochodu na konsumpcję, lecz mogą również oszczędzać. Z kolei zniesienie założenia dotyczącego dóbr inwestycyjnych i pośrednich oznacza uwzględnienie produkcji dóbr używanych w procesie produkcyjnym i inwestycyjnym.",
+        "valid": "true"
+        },
+        {
+        "answer": "Gospodarstwa domowe przestają być właścicielem czynników produkcji, które są wynajmowane bezpośrednio przez przedsiębiorstwa, co zmienia strukturę właśności w gospodarce.",
+        "valid": "false"
+        },
+        {
+        "answer": "Przedsiębiorstwa zaczynają inwestować wyłącznie w produkcję dóbr konsumpcyjnych, ignorując potrzeby inwestycji w infrastrukturę oraz inne dobra używane w procesie produkcji.",
+        "valid": "false"
+        },
+        {
+        "answer": "Rząd przejmuje kontrolę nad rynkami czynników produkcji i dóbr konsumpcyjnych, regulując ich przepływy w gospodarce.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Co odróżnia zasoby od strumieni w analizie ekonomicznej?",
+        "answers": [
+        {
+        "answer": "Zasoby są mierzone w określonym momencie, natomiast strumienie dokonują się w określonym czasie.",
+        "valid": "true"
+        },
+        {
+        "answer": "Zasoby dotyczą jedynie dóbr konsumpcyjnych, podczas gdy strumienie obejmują zarówno dobra konsumpcyjne, jak i inwestycyjne.",
+        "valid": "false"
+        },
+        {
+        "answer": "Zasoby i strumienie są mierzone na różnych poziomach gospodarczych.",
+        "valid": "false"
+        },
+        {
+        "answer": "Zasoby to jedynie materialne aktywa, podczas gdy strumienie odnoszą się do niematerialnych dóbr i usług.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jakie są warunki prawidłowego działania prawa popytu rynkowego?",
+        "answers": [
+        {
+        "answer": "Jeśli cena danego produktu rośnie, ceteris paribus, to popyt na ten produkt maleje.",
+        "valid": "true"
+        },
+        {
+        "answer": "Jeśli cena danego produktu rośnie, to popyt na ten produkt rośnie, ignorując inne czynniki.",
+        "valid": "false"
+        },
+        {
+        "answer": "Jeśli cena danego produktu spada, ceteris paribus, to popyt na ten produkt rośnie.",
+        "valid": "false"
+        },
+        {
+        "answer": "Jeśli cena danego produktu spada, to popyt na ten produkt maleje, ignorując inne czynniki.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jakie jest graficzne wyrażenie prawa popytu rynkowego?",
+        "answers": [
+        {
+        "answer": "Krzywa popytu, która ma nachylenie ujemne (negatywne), pokazuje, że gdy cena produktu rośnie, ilość popytu maleje, a gdy cena spada, ilość popytu rośnie.",
+        "valid": "true"
+        },
+        {
+        "answer": "Krzywa popytu, która ma nachylenie dodatnie, pokazuje, że gdy cena produktu rośnie, ilość popytu rośnie, a gdy cena spada, ilość popytu maleje.",
+        "valid": "false"
+        },
+        {
+        "answer": "Krzywa popytu, która jest pozioma, oznacza, że ilość popytu nie zmienia się wraz ze zmianą ceny.",
+        "valid": "false"
+        },
+        {
+        "answer": "Krzywa popytu, która jest pionowa, oznacza, że zmiana ceny nie wpływa na ilość popytu.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jakie jest wyrażenie działania czynników niecenowych na krzywą popytu?",
+        "answers": [
+        {
+        "answer": "Czynniki niecenowe, które zwiększają popyt, powodują przesunięcie krzywej popytu w prawo (z D do D'), natomiast czynniki zmniejszające popyt przesuwają krzywą w lewo (z D do D'').",
+        "valid": "true"
+        },
+        {
+        "answer": "Czynniki niecenowe zwiększają nachylenie krzywej popytu.",
+        "valid": "false"
+        },
+        {
+        "answer": "Czynniki niecenowe nie mają wpływu na krzywą popytu.",
+        "valid": "false"
+        },
+        {
+        "answer": "Czynniki niecenowe powodują, że krzywa popytu staje się pozioma.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jakie są najważniejsze czynniki niecenowe wpływające na popyt?",
+        "answers": [
+        {
+        "answer": "Najważniejsze czynniki niecenowe wpływające na popyt to: dochody nabywców, liczba nabywców, przewidywania dotyczące cen, ceny dóbr substytucyjnych i komplementarnych oraz gusty i preferencje nabywców.",
+        "valid": "true"
+        },
+        {
+        "answer": "Najważniejszym czynnikiem niecenowym wpływającym na popyt jest zmiana cen produktów.",
+        "valid": "false"
+        },
+        {
+        "answer": "Najważniejsze czynniki niecenowe to warunki atmosferyczne i pogoda.",
+        "valid": "false"
+        },
+        {
+        "answer": "Najważniejszym czynnikiem niecenowym jest liczba firm produkujących dany produkt.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jakie są dwa warianty prawa podaży rynkowej?",
+        "answers": [
+        {
+        "answer": "Prawo podaży rynkowej ma dwa warianty: jeśli cena danego produktu rośnie, ceteris paribus, to podaż tego produktu też rośnie; jeśli cena danego produktu spada, ceteris paribus, to podaż tego produktu też spada.",
+        "valid": "true"
+        },
+        {
+        "answer": "Prawo podaży rynkowej ma dwa warianty: jeśli cena danego produktu rośnie, ceteris paribus, to podaż tego produktu maleje; jeśli cena danego produktu spada, ceteris paribus, to podaż tego produktu rośnie.",
+        "valid": "false"
+        },
+        {
+        "answer": "Prawo podaży rynkowej mówi, że wzrost ceny produktu zawsze prowadzi do wzrostu podaży, niezależnie od innych czynników.",
+        "valid": "false"
+        },
+        {
+        "answer": "Prawo podaży rynkowej nie dotyczy zmian cen produktów, lecz zmian w produkcji.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jakie jest nachylenie krzywej podaży na wykresie?",
+        "answers": [
+        {
+        "answer": "Krzywa podaży ma nachylenie dodatnie, co oznacza, że cena i ilość popytu zmieniają się w tę samą stronę: albo obie zmienne rosną, albo obie maleją.",
+        "valid": "true"
+        },
+        {
+        "answer": "Krzywa podaży ma nachylenie ujemne, co oznacza, że cena i ilość popytu zmieniają się w przeciwnych kierunkach.",
+        "valid": "false"
+        },
+        {
+        "answer": "Krzywa podaży jest pozioma, co oznacza stałą ilość popytu niezależnie od ceny.",
+        "valid": "false"
+        },
+        {
+        "answer": "Krzywa podaży jest pionowa, co oznacza, że cena zmienia się bez wpływu na ilość popytu.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Co przedstawia przesuwanie się krzywej podaży na wykresie?",
+        "answers": [
+        {
+        "answer": "Przesuwanie się krzywej podaży w prawo (z S do S') na wykresie oznacza zwiększenie podaży danego dobra w odpowiedzi na działanie czynników niecenowych, przy niezmienionej cenie.",
+        "valid": "true"
+        },
+        {
+        "answer": "Przesuwanie się krzywej podaży w lewo (z S do S'') na wykresie oznacza zmniejszenie podaży danego dobra w odpowiedzi na działanie czynników niecenowych, przy niezmienionej cenie.",
+        "valid": "false"
+        },
+        {
+        "answer": "Przesuwanie się krzywej podaży w prawo (z S do S') na wykresie oznacza zwiększenie ceny danego dobra, co prowadzi do wzrostu podaży.",
+        "valid": "false"
+        },
+        {
+        "answer": "Przesuwanie się krzywej podaży w lewo (z S do S'') na wykresie oznacza zmniejszenie ceny danego dobra, co prowadzi do spadku podaży.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jak czynniki niecenowe wpływają na podaż na rynku?",
+        "answers": [
+        {
+        "answer": "Przesuwanie krzywej podaży w prawo (z S do S') zwiększa podaż danego dobra na rynku, co może wynikać z rozszerzenia możliwości produkcyjnych, postępu technicznego, obniżenia cen czynników produkcji, subsydiów lub innych interwencji państwa.",
+        "valid": "true"
+        },
+        {
+        "answer": "Przesuwanie krzywej podaży w lewo (z S do S'') zmniejsza podaż danego dobra na rynku, co może wynikać z ograniczenia możliwości produkcyjnych, wzrostu cen czynników produkcji, podatków pośrednich lub innych form interwencji państwa.",
+        "valid": "false"
+        },
+        {
+        "answer": "Przesuwanie krzywej podaży w prawo (z S do S') zmniejsza podaż danego dobra na rynku, co może wynikać z obniżenia cen czynników produkcji.",
+        "valid": "false"
+        },
+        {
+        "answer": "Przesuwanie krzywej podaży w lewo (z S do S'') zwiększa podaż danego dobra na rynku, co może wynikać z postępu technicznego.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Co oznacza stan równowagi rynkowej w kontekście ekonomii?",
+        "answers": [
+        {
+        "answer": "Stan równowagi rynkowej występuje, gdy ilość popytu na dane dobro jest równa ilości jego podaży przy określonym poziomie ceny.",
+        "valid": "true"
+        },
+        {
+        "answer": "Stan równowagi rynkowej oznacza, że ilość popytu na dane dobro zawsze przewyższa ilość jego podaży.",
+        "valid": "false"
+        },
+        {
+        "answer": "Stan równowagi rynkowej występuje, gdy ilość podaży na dane dobro jest równa ilości jego popytu przy określonym poziomie ceny.",
+        "valid": "false"
+        },
+        {
+        "answer": "Stan równowagi rynkowej to sytuacja, w której popyt na dobro jest całkowicie zaspokojony i nie ma potrzeby dalszej produkcji.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Co dodatkowo oznacza wystąpienie równowagi rynkowej na danym rynku?",
+        "answers": [
+        {
+        "answer": "Oznacza, że na danym rynku ilość popytu na dobro jest równa ilości jego podaży przy określonym poziomie ceny, np. 4 zł/kg jabłek, co oznacza, że tylko ci nabywcy, którzy są gotowi zapłacić co najmniej tę cenę, dokonują zakupu.",
+        "valid": "true"
+        },
+        {
+        "answer": "Oznacza, że wszyscy nabywcy zaspokoili swój popyt na dane dobro, a wszyscy producenci sprzedali swoją podaż.",
+        "valid": "false"
+        },
+        {
+        "answer": "Oznacza, że na rynku występuje pełna konkurencja, co gwarantuje optymalne warunki dla konsumentów i producentów.",
+        "valid": "false"
+        },
+        {
+        "answer": "Oznacza, że cena danego dobra jest na tyle wysoka, że zapewnia maksymalny zysk dla producentów i maksymalne zadowolenie dla konsumentów.",
+        "valid": "false"
+        }
+        ]
+    },
+
+    {
+        "question": "Jak określa się nierównowagę rynkową, gdy podaż przewyższa popyt?",
+        "answers": [
+        {
+        "answer": "Określa się ją jako nadmiar.",
+        "valid": "true"
+        },
+        {
+        "answer": "Określa się ją jako deficyt.",
+        "valid": "false"
+        },
+        {
+        "answer": "Określa się ją jako równowagę cenową.",
+        "valid": "false"
+        },
+        {
+        "answer": "Określa się ją jako optimum.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jak określa się nierównowagę rynkową, gdy popyt przewyższa podaż?",
+        "answers": [
+        {
+        "answer": "Określa się ją jako niedobór.",
+        "valid": "true"
+        },
+        {
+        "answer": "Określa się ją jako nadmiar.",
+        "valid": "false"
+        },
+        {
+        "answer": "Określa się ją jako równowagę cenową.",
+        "valid": "false"
+        },
+        {
+        "answer": "Określa się ją jako optimum.",
+        "valid": "false"
+        }
+        ]
+    },
+
+    {
+        "question": "Dlaczego instytucje państwowe wprowadzają ceny maksymalne na niektórych rynkach?",
+        "answers": [
+        {
+        "answer": "Aby zapewnić nabywcom dostęp do tanich dóbr, takich jak tania żywność.",
+        "valid": "true"
+        },
+        {
+        "answer": "Aby zwiększyć zyski producentów na rynkach krajowych.",
+        "valid": "false"
+        },
+        {
+        "answer": "Aby ograniczyć podaż danego dobra na rynku.",
+        "valid": "false"
+        },
+        {
+        "answer": "Aby zrównoważyć popyt i podaż na rynku.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jakie działanie podejmują sprzedawcy w sytuacji nadmiaru (nadwyżki podaży nad popytem) na rynku?",
+        "answers": [
+        {
+        "answer": "Oferują towar po niższej cenie, aby pozbyć się zapasów.",
+        "valid": "true"
+        },
+        {
+        "answer": "Podnoszą ceny, aby zwiększyć zyski.",
+        "valid": "false"
+        },
+        {
+        "answer": "Ograniczają produkcję, aby utrzymać równowagę na rynku.",
+        "valid": "false"
+        },
+        {
+        "answer": "Zamykają sklepy, aby zmniejszyć koszty operacyjne.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Co mogą zrobić nabywcy w sytuacji niedoboru (gdy występuje nadwyżka popytu nad podażą) na rynku?",
+        "answers": [
+        {
+        "answer": "Akceptować wyższe ceny i kupować towary na czarnym rynku.",
+        "valid": "true"
+        },
+        {
+        "answer": "Ograniczać swoje zapotrzebowanie, aby zmniejszyć popyt na dane dobro.",
+        "valid": "false"
+        },
+        {
+        "answer": "Oferować niższe ceny, aby zachęcić sprzedawców do zwiększenia podaży.",
+        "valid": "false"
+        },
+        {
+        "answer": "Szukać alternatywnych źródeł zaopatrzenia, aby uniknąć wysokich kosztów.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Jakie jest znaczenie powrotu do stanu równowagi na rynku?",
+        "answers": [
+        {
+        "answer": "Przywracanie optymalnego poziomu cen na rynku danego dobra.",
+        "valid": "true"
+        },
+        {
+        "answer": "Zapewnienie maksymalnych korzyści nabywców i producentów.",
+        "valid": "false"
+        },
+        {
+        "answer": "Dostosowanie ilości popytu i podaży do zmieniających się warunków rynkowych.",
+        "valid": "false"
+        },
+        {
+        "answer": "Zminimalizowanie nadwyżek podaży i niedoborów popytu na danym rynku.",
+        "valid": "false"
+        }
+        ]
+    },
+    {
+        "question": "Które z poniższych stwierdzeń najlepiej opisuje rolę podatków pośrednich w gospodarce rynkowej?",
+        "answers": [
+            {
+                "answer": "Podatki pośrednie wpływają na podaż poprzez zwiększanie kosztów produkcji.",
+                "valid": "true"
+            },
+            {
+                "answer": "Podatki pośrednie mają jedynie wpływ na dochody ludności.",
+                "valid": "false"
+            },
+            {
+                "answer": "Podatki pośrednie nie mają wpływu na funkcjonowanie rynku ze względu na swój niski poziom opodatkowania.",
+                "valid": "false"
+            },
+            {
+                "answer": "Podatki pośrednie zawsze prowadzą do obniżenia cen dóbr na rynku.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Jakie jest główne działanie niepodatkowych form interwencji państwa, takich jak zmiana przepisów BHP, przepisów dotyczących ochrony przeciwpożarowej, ochrony środowiska itp., w kontekście gospodarki rynkowej?",
+        "answers": [
+            {
+                "answer": "Mogą one wpłynąć na zmniejszenie podaży poprzez zwiększenie kosztów produkcji dla firm.",
+                "valid": "true"
+            },
+            {
+                "answer": "Te regulacje mają na celu zwiększenie dochodów ludności poprzez zabezpieczenie miejsc pracy.",
+                "valid": "false"
+            },
+            {
+                "answer": "Nie mają one żadnego wpływu na rynek, ponieważ dotyczą jedynie bezpieczeństwa pracowników.",
+                "valid": "false"
+            },
+            {
+                "answer": "Regulacje te zawsze prowadzą do obniżenia cen towarów na rynku.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Dlaczego ceny administracyjne ustalone jako ceny minimalne lub maksymalne mogą prowadzić do pojawienia się nierównowagi na rynkach dóbr lub usług?",
+        "answers": [
+            {
+                "answer": "Ponieważ takie ceny mogą uniemożliwić dostosowanie się rynku do zmieniających się warunków podaży i popytu, co może prowadzić do nadmiaru lub niedoboru na rynku.",
+                "valid": "true"
+            },
+            {
+                "answer": "Ponieważ takie ceny zawsze są uważane za sprawiedliwe i optymalne dla wszystkich uczestników rynku.",
+                "valid": "false"
+            },
+            {
+                "answer": "Ponieważ takie ceny zawsze zapewniają maksymalne zyski dla producentów na rynku.",
+                "valid": "false"
+            },
+            {
+                "answer": "Ponieważ takie ceny automatycznie eliminują konkurencję na rynku, co prowadzi do stabilności cen.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Na jakie trzy rodzaje powiązań między dobrami i ich rynkami zwraca uwagę autor w kontekście mechanizmu rynkowego?",
+        "answers": [
+            {
+                "answer": "Substytucja, komplementarność oraz czynniki produkcji.",
+                "valid": "true"
+            },
+            {
+                "answer": "Konkurencja, monopol oraz oligopol.",
+                "valid": "false"
+            },
+            {
+                "answer": "Rynki krajowe, regionalne oraz globalne.",
+                "valid": "false"
+            },
+            {
+                "answer": "Podaż, popyt oraz równowaga rynkowa.",
+                "valid": "false"
+            }
+        ]
+    },{
+        "question": "Co oznacza substytucja w kontekście dóbr?",
+        "answers": [
+            {
+                "answer": "Substytucja oznacza, że dobra są wzajemnie dla siebie zamiennikami, choć w różnym stopniu. Na przykład masło może być substytutem margaryny lub oleju rzepakowego.",
+                "valid": "true"
+            },
+            {
+                "answer": "Substytucja oznacza, że dobra wzajemnie się uzupełniają, na przykład samochody i paliwo.",
+                "valid": "false"
+            },
+            {
+                "answer": "Substytucja oznacza, że dobra są warunkiem produkcji dla siebie nawzajem, na przykład jabłka i sok jabłkowy.",
+                "valid": "false"
+            },
+            {
+                "answer": "Substytucja oznacza równowagę między popytem a podażą na rynku danego dobra.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co oznacza komplementarność w kontekście dóbr?",
+        "answers": [
+            {
+                "answer": "Komplementarność oznacza, że dobra wzajemnie się uzupełniają. Na przykład samochody i paliwo są komplementarne, ponieważ samochody wymagają paliwa do działania.",
+                "valid": "true"
+            },
+            {
+                "answer": "Komplementarność oznacza, że dobra są wzajemnie dla siebie zamiennikami, choć w różnym stopniu.",
+                "valid": "false"
+            },
+            {
+                "answer": "Komplementarność oznacza równowagę między popytem a podażą na rynku danego dobra.",
+                "valid": "false"
+            },
+            {
+                "answer": "Komplementarność oznacza, że dobra są warunkiem produkcji dla siebie nawzajem, na przykład jabłka i sok jabłkowy.",
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "question": "Co oznacza czynniki produkcji w kontekście dóbr?",
+        "answers": [
+            {
+                "answer": "Czynniki produkcji oznaczają, że jedno dobro jest warunkiem produkcji dla drugiego dobra w relacji jednostronnej. Na przykład jabłka są czynnikiem produkcji soku jabłkowego, ale nie odwrotnie.",
+                "valid": "true"
+            },
+            {
+                "answer": "Czynniki produkcji oznaczają, że dobra wzajemnie się uzupełniają. Na przykład samochody i paliwo są czynnikami produkcji wzajemnie dla siebie.",
+                "valid": "false"
+            },
+            {
+                "answer": "Czynniki produkcji oznaczają, że dobra są wzajemnie dla siebie zamiennikami, choć w różnym stopniu.",
+                "valid": "false"
+            },
+            {
+                "answer": "Czynniki produkcji oznaczają równowagę między popytem a podażą na rynku danego dobra.",
+                "valid": "false"
+            }
+        ]
+    }
+]
