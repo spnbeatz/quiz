@@ -1,11 +1,11 @@
 import DefaultLayout from "@/layouts/default";
 import { QuestionsGroup } from "@/components/organisms/QuestionsGroup";
-import questions from '@/data/ekonomia.json';
+import questions from '@/data/ekonomia2.json';
 import { getRandomElements, shuffleAnswers } from "@/helpers/shuffle";
 import { useEffect, useState } from "react";
 import { Question } from "@/interfaces/questionsInterfaces";
 import { LoadingSpinner } from "@/components/atoms/loadingSpinner";
-import {Button, ButtonGroup} from "@nextui-org/button";
+import { Button, ButtonGroup } from "@nextui-org/button";
 import { useNavigate } from "react-router-dom";
 
 export default function QuizPage() {
@@ -15,7 +15,7 @@ export default function QuizPage() {
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[] | null>(null);
 
   useEffect(() => {
-    const shuffled = getRandomElements(questions, 20);
+    const shuffled = getRandomElements(questions, 1);
 
     setShuffledQuestions(shuffled);
   },[]);

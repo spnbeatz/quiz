@@ -15,7 +15,7 @@ export const QuestionRadio = (
         question: QuestionInterface, 
         index:number, 
         answers: Answer[],
-        handleResult: (answerValue: number, index: number) => void,
+        handleResult: (answerValue: number, index: number, type: string) => void,
         summary: boolean
     }) => {
 
@@ -52,7 +52,7 @@ export const QuestionRadio = (
                             }
                         }
                         onClick={() => {
-                            handleResult(i, index);
+                            handleResult(i, index, question.typ);
                         }}
                     >{item.answer}</Radio>
                 )
