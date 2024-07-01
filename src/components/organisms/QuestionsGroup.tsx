@@ -1,38 +1,49 @@
-import React from "react";
-import { Question } from "../molecules/Question";
+import React, { useEffect } from "react";
+import { QuestionRadio } from "../molecules/QuestionRadio";
 import { Question as QuestionInterface } from "@/interfaces/questionsInterfaces";
-import { shuffleAnswers } from "@/helpers/shuffle";
-
-
 
 export const QuestionsGroup = ({
     questions, 
-    answerResults, 
-    setAnswerResults
+    setQuestion,
+    summary
 }:{
     questions:QuestionInterface[],
-    answerResults: string[],
-    setAnswerResults:React.Dispatch<React.SetStateAction<string[]>>
+    setQuestion:React.Dispatch<React.SetStateAction<QuestionInterface[] | null>>,
+    summary: boolean
 }) => {
 
-    const handleResult = (answerValue: string, index: number) => {
-        const resultsToChange = {...answerResults}
-        resultsToChange[index] = answerValue;
-        setAnswerResults(resultsToChange);
+    const handleResult = (answerValue: number, questionIndex: number) => {
+        if(!summary){
+            const updatedQuestions = questions.map((question, index) =>
+                index === questionIndex ? { ...question, choice: answerValue } : question
+            );
+            setQuestion(updatedQuestions);
+        }
+
     }
 
-    return (
-        <div className="flex flex-col items-center justify-start overflow-y-scroll w-full h-screen gap-5">
-            {questions.map((item: QuestionInterface, index: number) => {
+    const renderQuestionByType = (typ: string | undefined, item: QuestionInterface, index: number) => {
+        switch(typ){
+            case "radio":
                 return (
-                    <Question 
+                    <QuestionRadio 
                         question={item} 
                         key={index} 
                         index={index} 
-                        answers={item.answers} 
+                        answers={item.answers}
+                        summary={summary} 
                         handleResult={handleResult}
                     />
                 )
+            default:
+                break;
+        }
+    }
+
+    return (
+        <div className="flex flex-col items-center justify-start sm:w-full md:w-3/4 lg:w-1/2 h-full gap-5">
+            {questions.map((item: QuestionInterface, index: number) => {
+                return renderQuestionByType(item.typ, item, index);
             })}
         </div>
     )

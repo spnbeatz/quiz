@@ -1,0 +1,25 @@
+[
+    {
+        "question": "Jak czynniki niecenowe wpływają na podaż na rynku?",
+        "choice": [],
+        "typ": "multi",
+        "answers": [
+        {
+        "answer": "Przesuwanie krzywej podaży w prawo (z S do S') zwiększa podaż danego dobra na rynku, co może wynikać z rozszerzenia możliwości produkcyjnych, postępu technicznego, obniżenia cen czynników produkcji, subsydiów lub innych interwencji państwa.",
+        "valid": "true"
+        },
+        {
+        "answer": "Przesuwanie krzywej podaży w lewo (z S do S'') zmniejsza podaż danego dobra na rynku, co może wynikać z ograniczenia możliwości produkcyjnych, wzrostu cen czynników produkcji, podatków pośrednich lub innych form interwencji państwa.",
+        "valid": "false"
+        },
+        {
+        "answer": "Przesuwanie krzywej podaży w prawo (z S do S') zmniejsza podaż danego dobra na rynku, co może wynikać z obniżenia cen czynników produkcji.",
+        "valid": "true"
+        },
+        {
+        "answer": "Przesuwanie krzywej podaży w lewo (z S do S'') zwiększa podaż danego dobra na rynku, co może wynikać z postępu technicznego.",
+        "valid": "false"
+        }
+        ]
+    }
+]

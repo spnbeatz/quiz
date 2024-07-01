@@ -1,13 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 
-import IndexPage from "@/pages/index";
+import QuizPage from "@/pages/quizPage";
+import { QuizSummaryPage } from "./pages/quizSummaryPage";
 
 
 function App() {
   return (
     <Routes>
-      <Route element={<IndexPage />} path="/" />
-
+      <Route element={<QuizPage />} path="/" />
+      <Route element={<QuizSummaryPage/>} path="/summary"/>
     </Routes>
   );
 }
