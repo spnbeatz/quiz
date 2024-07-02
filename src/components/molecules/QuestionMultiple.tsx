@@ -17,6 +17,28 @@ export const QuestionMultiple = (    {
     handleResult: (answerValue: number, index: number, type: string) => void,
     summary: boolean
 }) => {
+
+    const getDefaultValues = () => {
+        let val = [];
+        if(question.choices.length > 0){
+            for(let i = 0; i < question.choices.length; i++){
+                val.push(question.answers[question.choices[i]].answer);
+            }
+            return val;
+        } else return [];
+
+    }
+
+    const getValidBg = (item: any, i: number) => {
+        if(item.valid == "true") return "bg-green-200";
+        if(question.choices.length > 0){
+            if(question.choices.includes(i) && item.valid === "true") return "bg-green-200";
+            if(question.choices.includes(i) && item.valid === "false") return "bg-red-200";
+        }
+
+        return "";
+    }
+
     return (
         <CheckboxGroup 
             label={`${index + 1}. ${question.question} (pytanie wielokrotnego wyboru)`} 
@@ -24,7 +46,7 @@ export const QuestionMultiple = (    {
             classNames={{label: "text-sm text-black"}}
             color={"default"}
             isDisabled={summary}
-/*             defaultValue={summary ? question.answers[question.choice].answer : null} */
+            defaultValue={summary ? getDefaultValues() : undefined}
         >
             {answers && answers.map((item, i)=> {
                 return (
@@ -35,10 +57,10 @@ export const QuestionMultiple = (    {
                         
                         classNames={
                             {
-/*                                 base: `
+                                base: `
                                     ${summary ? getValidBg(item, i) : ""}
                                     
-                                    `, */
+                                    `,
                                 label: `text-xs font-normal `,
                             }
                         }

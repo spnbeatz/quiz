@@ -1,7 +1,7 @@
 [
     {
         "question": "Czym jest potrzeba?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -24,7 +24,7 @@
     },
     {
         "question": "Które z poniższych stwierdzeń poprawnie opisuje dobra wolne?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -47,7 +47,7 @@
     },
     {
         "question": "Który z poniższych zasobów nie jest zaliczany do klasycznych czynników produkcji?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -70,7 +70,7 @@
     },
     {
         "question": "Jak określany jest problem wynikający z nieograniczonych potrzeb i ograniczonych zasobów?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -93,7 +93,7 @@
     },
     {
         "question": "Co to jest koszt alternatywny?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -116,7 +116,7 @@
     },
     {
         "question": "Jakie jest podstawowe zadanie ekonomii?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -139,7 +139,7 @@
     },
     {
         "question": "Czym zajmuje się ekonomia w kontekście rzadkości zasobów?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -162,7 +162,7 @@
     },
     {
         "question": "Jak niektórzy ekonomiści inaczej definiują ekonomię?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -185,7 +185,7 @@
     },
     {
         "question": "Co jest jednym z powodów rozbieżności poglądów w ekonomii?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -208,7 +208,7 @@
     },
     {
         "question": "Kto jest uważany za „ojca” ekonomii jako nauki i co było sednem jego teorii?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -231,7 +231,7 @@
     },
     {
         "question": "Na czym opiera się założenie o racjonalności podmiotów gospodarujących w niektórych szkołach ekonomicznych?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -254,7 +254,7 @@
     },
     {
         "question": "Co charakteryzuje ekonomię pozytywną?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -277,7 +277,7 @@
     },
     {
         "question": "Co charakteryzuje prognozy ekonomiczne?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -300,7 +300,7 @@
     },
     {
         "question": "Co jest przedmiotem badań w mikroekonomii?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -323,7 +323,7 @@
     },
     {
         "question": "Co jest przedmiotem badań mikroekonomii?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -346,7 +346,7 @@
     },
     {
         "question": "Co oznacza klauzula ceteris paribus w kontekście praw ekonomicznych?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -369,7 +369,7 @@
     },
     {
         "question": "Dlaczego stosuje się klauzulę ceteris paribus w modelach ekonomicznych?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -392,7 +392,7 @@
     },
     {
         "question": "Co to jest model ekonomiczny?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -415,7 +415,7 @@
     },
     {
         "question": "W jakich formach mogą występować modele ekonomiczne?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -438,7 +438,7 @@
     },
     {
         "question": "Co oznacza pojęcie 'marginalne' w kontekście mikroekonomii?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -461,7 +461,7 @@
     },
     {
         "question": "Jaką zasadę wykorzystuje się przy analizie marginalnej w podejmowaniu decyzji przez podmioty gospodarujące?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -484,7 +484,7 @@
     },
     {
         "question": "Które wydarzenie było jednym z głównych źródeł nowoczesnej makroekonomii?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -507,7 +507,7 @@
     },
     {
         "question": "Jakie są dwa główne nurty makroekonomii, różniące się w podejściu do roli rządu w gospodarce?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -530,7 +530,7 @@
     },
     {
         "question": "Co uważają zwolennicy nurtu neoklasycznego (neoliberalnego) na temat roli rządu w gospodarce?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -553,7 +553,7 @@
     },
     {
         "question": "Co uważają zwolennicy nurtu keynesowskiego na temat roli rządu w gospodarce?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -576,7 +576,7 @@
     },
     {
         "question": "Co jest przedmiotem zainteresowania ekonomii normatywnej?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -599,7 +599,7 @@
     },
     {
         "question": "Co oznacza pojęcie 'rynek' w sensie dosłownym?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -622,7 +622,7 @@
     },
     {
         "question": "Jakie znaczenie ma słowo 'rynek' w kontekście 'rynek jabłek', 'rynek pracy' lub 'rynek pieniężny'?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -645,7 +645,7 @@
     },
     {
         "question": "Co oznacza pojęcie 'gospodarka rynkowa'?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -668,7 +668,7 @@
     },
     {
         "question": "Co charakteryzuje gospodarkę kapitalistyczną?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -691,7 +691,7 @@
     },
     {
         "question": "Co charakteryzuje gospodarkę socjalistyczną?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -714,7 +714,7 @@
     },
     {
         "question": "Co charakteryzuje modele gospodarki rynkowej?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -737,7 +737,7 @@
     },
     {
         "question": "Na czym opiera się najprostszy model gospodarki rynkowej?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -760,7 +760,7 @@
     },
     {
         "question": "Na czym opiera się najprostszy model gospodarki rynkowej?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -783,7 +783,7 @@
     },
     {
         "question": "W jaki sposób działają przepływy czynników produkcji w opisanym modelu gospodarki rynkowej?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -806,7 +806,7 @@
     },
     {
         "question": "Co oznacza komplikacja modelu gospodarki rynkowej poprzez uchylenie założeń dotyczących oszczędności gospodarstw domowych oraz dóbr inwestycyjnych i pośrednich?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -829,7 +829,7 @@
     },
     {
         "question": "Co odróżnia zasoby od strumieni w analizie ekonomicznej?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -852,7 +852,7 @@
     },
     {
         "question": "Jakie są warunki prawidłowego działania prawa popytu rynkowego?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -875,7 +875,7 @@
     },
     {
         "question": "Jakie jest graficzne wyrażenie prawa popytu rynkowego?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -898,7 +898,7 @@
     },
     {
         "question": "Jakie jest wyrażenie działania czynników niecenowych na krzywą popytu?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -921,7 +921,7 @@
     },
     {
         "question": "Jakie są najważniejsze czynniki niecenowe wpływające na popyt?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -944,7 +944,7 @@
     },
     {
         "question": "Jakie są dwa warianty prawa podaży rynkowej?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -967,7 +967,7 @@
     },
     {
         "question": "Jakie jest nachylenie krzywej podaży na wykresie?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -990,7 +990,7 @@
     },
     {
         "question": "Co przedstawia przesuwanie się krzywej podaży na wykresie?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1013,7 +1013,7 @@
     },
     {
         "question": "Jak czynniki niecenowe wpływają na podaż na rynku?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1036,7 +1036,7 @@
     },
     {
         "question": "Co oznacza stan równowagi rynkowej w kontekście ekonomii?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1059,7 +1059,7 @@
     },
     {
         "question": "Co dodatkowo oznacza wystąpienie równowagi rynkowej na danym rynku?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1083,7 +1083,7 @@
 
     {
         "question": "Jak określa się nierównowagę rynkową, gdy podaż przewyższa popyt?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1106,7 +1106,7 @@
     },
     {
         "question": "Jak określa się nierównowagę rynkową, gdy popyt przewyższa podaż?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1130,7 +1130,7 @@
 
     {
         "question": "Dlaczego instytucje państwowe wprowadzają ceny maksymalne na niektórych rynkach?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1153,7 +1153,7 @@
     },
     {
         "question": "Jakie działanie podejmują sprzedawcy w sytuacji nadmiaru (nadwyżki podaży nad popytem) na rynku?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1176,7 +1176,7 @@
     },
     {
         "question": "Co mogą zrobić nabywcy w sytuacji niedoboru (gdy występuje nadwyżka popytu nad podażą) na rynku?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
         "question": "Jakie jest znaczenie powrotu do stanu równowagi na rynku?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
         {
@@ -1222,7 +1222,7 @@
     },
     {
         "question": "Które z poniższych stwierdzeń najlepiej opisuje rolę podatków pośrednich w gospodarce rynkowej?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -1245,7 +1245,7 @@
     },
     {
         "question": "Jakie jest główne działanie niepodatkowych form interwencji państwa, takich jak zmiana przepisów BHP, przepisów dotyczących ochrony przeciwpożarowej, ochrony środowiska itp., w kontekście gospodarki rynkowej?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -1268,7 +1268,7 @@
     },
     {
         "question": "Dlaczego ceny administracyjne ustalone jako ceny minimalne lub maksymalne mogą prowadzić do pojawienia się nierównowagi na rynkach dóbr lub usług?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -1291,7 +1291,7 @@
     },
     {
         "question": "Na jakie trzy rodzaje powiązań między dobrami i ich rynkami zwraca uwagę autor w kontekście mechanizmu rynkowego?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         
         "answers": [
@@ -1314,7 +1314,7 @@
         ]
     },{
         "question": "Co oznacza substytucja w kontekście dóbr?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -1337,7 +1337,7 @@
     },
     {
         "question": "Co oznacza komplementarność w kontekście dóbr?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {
@@ -1360,7 +1360,7 @@
     },
     {
         "question": "Co oznacza czynniki produkcji w kontekście dóbr?",
-        "choice": -1,
+        "choices": [],
         "typ": "radio",
         "answers": [
             {

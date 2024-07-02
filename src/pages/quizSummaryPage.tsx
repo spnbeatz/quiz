@@ -23,8 +23,8 @@ export const QuizSummaryPage = () => {
 
             for (let i = 0; i < answers.length; i++) {
                 if (answers[i].typ === "radio") {
-                    if (answers[i].choice !== -1) {
-                        if (answers[i].answers[answers[i].choice].valid === "true") {
+                    if (answers[i].choices.length > 0) {
+                        if (answers[i].answers[answers[i].choices[0]].valid === "true") {
                             resultPoints += 1;
                         }
                     }

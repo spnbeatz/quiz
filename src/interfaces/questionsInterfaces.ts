@@ -6,7 +6,6 @@ export interface Answer {
 
 export interface Question {
     question: string,
-    choice: number,
     choices: number[],
     typ: string,
     answers: Answer[],

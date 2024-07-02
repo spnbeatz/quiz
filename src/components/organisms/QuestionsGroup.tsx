@@ -17,7 +17,7 @@ export const QuestionsGroup = ({
         if(!summary){
             if(type == "radio"){
                 const updatedRadioQuestions = questions.map((question, index) =>
-                    index === questionIndex ? { ...question, choice: answerValue } : question
+                    index === questionIndex ? { ...question, choices: [answerValue] } : question
                 );
                 setQuestion(updatedRadioQuestions);
             } else if (type == "multi"){

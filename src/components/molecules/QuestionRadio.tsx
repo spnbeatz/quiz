@@ -21,10 +21,21 @@ export const QuestionRadio = (
 
     const getValidBg = (item: any, i: number) => {
         if(item.valid == "true") return "bg-green-200";
-        if(question.choice === i && item.valid === "true") return "bg-green-200";
-        if(question.choice === i && item.valid === "false") return "bg-red-200";
+        if(question.choices.length > 0){
+            if(question.choices[0] === i && item.valid === "true") return "bg-green-200";
+            if(question.choices[0] === i && item.valid === "false") return "bg-red-200";
+        }
+
         return "";
     }
+
+    const getDefaultValues = () => {
+        if (question.choices.length > 0) {
+            return question.answers[question.choices[0]].answer || "";
+        }
+        return "";
+    }
+    
 
     return (
         <RadioGroup 
@@ -33,7 +44,7 @@ export const QuestionRadio = (
             classNames={{label: "text-sm text-black"}}
             color={"default"}
             isDisabled={summary}
-            defaultValue={summary ? question.answers[question.choice].answer : null}
+            defaultValue={summary ? getDefaultValues() : undefined}
         >
             {answers && answers.map((item, i)=> {
                 return (
