@@ -1,7 +1,7 @@
 export interface Answer {
     answer: string,
     valid?: string,
-    index?: number
+    index: number
 }
 
 export interface Question {

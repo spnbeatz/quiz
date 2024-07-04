@@ -1,6 +1,6 @@
 import DefaultLayout from "@/layouts/default";
 import { QuestionsGroup } from "@/components/organisms/QuestionsGroup";
-import questions from '@/data/ekonomia4.json';
+import temat from '@/data/ekonomia/tematy/temat_1.json';
 import { getRandomElements, shuffleAnswers } from "@/helpers/shuffle";
 import { useEffect, useState } from "react";
 import { Question } from "@/interfaces/questionsInterfaces";
@@ -15,7 +15,7 @@ export default function QuizPage() {
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[] | null>(null);
 
   useEffect(() => {
-    const shuffled = getRandomElements(questions, 1);
+    const shuffled = getRandomElements(temat.questions, 5);
 
     setShuffledQuestions(shuffled);
   },[]);

@@ -1,6 +1,7 @@
 import React from "react";
 import {CheckboxGroup, Checkbox} from "@nextui-org/checkbox";
 import { Question as QuestionInterface, Answer } from "@/interfaces/questionsInterfaces";
+import { QuestionTitle } from "../atoms/QuestionTitle";
 
 export const QuestionMultiple = (    {
     question, 
@@ -41,7 +42,7 @@ export const QuestionMultiple = (    {
 
     return (
         <CheckboxGroup 
-            label={`${index + 1}. ${question.question} (pytanie wielokrotnego wyboru)`} 
+            label={<QuestionTitle content={`${index + 1}. ${question.question} (pytanie wielokrotnego wyboru)`}/>} 
             className="bg-gray-100 p-5 rounded-md font-semibold text-sm w-full shadow-lg gap-5"
             classNames={{label: "text-sm text-black"}}
             color={"default"}

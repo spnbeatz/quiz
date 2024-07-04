@@ -6,6 +6,7 @@ import { QuestionSortItem } from "./QuestionSortItem";
 import update from "immutability-helper";
 import { AnimatePresence, motion } from "framer-motion";
 import {Badge} from "@nextui-org/badge";
+import { QuestionTitle } from "../atoms/QuestionTitle";
 
 const ItemType = "QUE_ITEM";
 
@@ -41,6 +42,7 @@ export const QuestionSort = ({
 
   return (
     <div className="bg-gray-100 p-5 rounded-md font-semibold text-sm w-full shadow-lg gap-5">
+      <QuestionTitle content={`${index + 1}. Ułóż w odpowiedniej kolejności`}/>
       <div className="w-full flex flex-col items-center justify-start gap-3 top">
         <DndProvider backend={HTML5Backend}>
           <AnimatePresence initial={false}>

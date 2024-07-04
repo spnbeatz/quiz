@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Question as QuestionInterface, Answer } from "@/interfaces/questionsInterfaces";
 import {RadioGroup, Radio} from "@nextui-org/radio";
+import { QuestionTitle } from "../atoms/QuestionTitle";
 
 export const QuestionRadio = (
     {
@@ -39,7 +40,7 @@ export const QuestionRadio = (
 
     return (
         <RadioGroup 
-            label={`${index + 1}. ${question.question}`} 
+            label={<QuestionTitle content={`${index + 1}. ${question.question}`}/>} 
             className="bg-gray-100 p-5 rounded-md font-semibold text-sm w-full shadow-lg gap-5"
             classNames={{label: "text-sm text-black"}}
             color={"default"}

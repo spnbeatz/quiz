@@ -1,0 +1,55 @@
+{
+    "title": "Wprowadzenie do ekonomii",
+    "cards": [
+        {
+            "question": "Czym jest potrzeba?",
+            "answer": "Potrzeba jest stanem braku, który odczuwany jest przez pojedyńczego człowieka, którego uzupełnienie jest warunkiem jego egzystencji, rozwoju lub satysfakcji",
+            "id": "0"
+        },
+        {
+            "question": "Na jakie kategorie dzielą się dobra?",
+            "answer": "Dobra wolne - czyli takie, które występują w przyrodzie i to w nieograniczonej ilości (przykłady: powietrze, energia słoneczna), wobec czego są darmowe. \nDobra rzadkie - to produkty, czyli rezultaty działalności produkcyjnej. Są to prawie wszystkie dobra, oprócz dóbr wolnych.",
+            "id": "1"
+        },
+        {
+            "question": "Jakie są podstawowe czynniki produkcji?",
+            "answer": "Ziema - są to wszelkie zasoby naturalne, np grunty rolne, ziemia pod zabudowę oraz złoża surowców znajdujące się pod ziemią i w wodzie.\nPraca - liczba pracowników jak i kapitał ludzki oraz ich wiedza i umiejętności.\nKapitał - występuje w formie rzeczowej (maszyny, pojazdy, budynki) oraz finansowej (depozyty bankowe, gotówka).\nTechnologia - są to zasoby wiedzy o tym, jak połączyć pozostałe zasoby, w jakiej sekwencji i proporcjach.",
+            "id": "2"
+        },
+        {
+            "question": "Wyjaśnij czym jest problem rzadkości.",
+            "answer": "problem rzadkości - oznacza on niedostatek, czyli właśnie rzadkość zasobów, a tym samym rzadkość dóbr w stosunku do potrzeb.",
+            "id": "3"
+        },
+        {
+            "question": "Czym jest koszt alternatywny?",
+            "answer": "To hipotetyczny koszt polegający na utracie korzyści z innego sposobu wykorzystania danych zasobów.",
+            "id": "4"
+        },
+        {
+            "question": "Ekonomia to nauka o gospodarowaniu (lub: dokonywaniu wyborów ekonomicznych, rozwiązywaniu problemów ekonomicznych, itd.), czyli o tym, jak ludzie jako jednostki i społeczności postępują w sytuacji rzadkości zasobów i dóbr w stosunku do potrzeb. Jakie decyzje ekonomiczne trzeba podejmować w obliczu tej rzadkości?",
+            "answer": "- co, ile i jak produkować?\n- jak podzielić uzyskane dochody?\n- co i ile konsumować?\n- jakie cele zrealizować ze środków finansowych władz centralnych kraju oraz władz lokalnych?",
+            "id": "5"
+        },
+        {
+            "question": "Ekonomia to nauka o gospodarowaniu. Istnieje również inne podejście do definicji ekonomii. Jak będzie ono brzmiało?",
+            "answer": "Ekonomia to nauka o zjawiskach gospodarczych. W takim ujęciu, ekonomii nie interesują kwestie liczby dzieci w rodzinie czy decyzje o zawarciu małżeństwa, natomiast kluczowa jest gospodarka, zjawiska gospodarcze oraz fazy działalności gospodarczej: produkcja, wymiana, podział (dochodów) i konsumpcja.",
+            "id": "6"
+        },
+        {
+            "question": "Kto jest uważany za 'ojca' ekonomii jako nauki, twórcę klasycznej szkoły ekonomii?",
+            "answer": "Adam Smith",
+            "id": "7"
+        },
+        {
+            "question": "W ekonomii głównego nurtu, przyjmuje się założenie, że podmiot gospodarujący jest racjonalny, to założenie opiera się na dwóch przesłankach:",
+            "answer": "- podmiot gospodarujący wie, czego chce, tzn. zna swoje cele i ich hierarchię\n- podmiot zbiera i przetwarza informacje potrzebne do podjęcia decyzji",
+            "id": "8"
+        },
+        {
+            "question": "",
+            "answer": "",
+            "id": "9"
+        }
+    ]
+}

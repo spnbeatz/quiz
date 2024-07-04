@@ -23,7 +23,7 @@ export const FillDragItem = ({answer, index}: {answer: Answer, index: number}) =
 
     return (
         <div ref={ref} 
-            className={`w-28 h-8 flex items-center justify-center bg-gray-200 
+            className={`w-32 h-8 flex items-center justify-center bg-gray-200 
             outline-1 outline-gray-300 outline rounded-md ${isDragging && "hidden"}`}
             style={{cursor: isDragging ? "grabbing" : "grab"}}
         >

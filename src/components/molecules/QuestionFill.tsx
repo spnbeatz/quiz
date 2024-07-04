@@ -4,6 +4,7 @@ import { FillDragItem } from "./FillDragItem";
 import { FillDropField } from "./FillDropField";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
+import { QuestionTitle } from "../atoms/QuestionTitle";
 
 export const QuestionFill = ({
     question, 
@@ -37,7 +38,7 @@ export const QuestionFill = ({
     return (
         <DndProvider backend={HTML5Backend}>
             <div className="bg-gray-100 p-5 rounded-md text-sm w-full shadow-lg gap-5 flex flex-col">
-                <p className="font-semibold text-lg">Przeciągnij elementy w odpowiednie pola.</p>
+                <QuestionTitle content={`${index + 1}. Przeciągnij elementy w odpowiednie pola.`}/>
                 <div className="w-full leading-10">
                     {Array.isArray(question.question) &&
                         question.question.map((item, ix) => {

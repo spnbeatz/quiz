@@ -1,0 +1,28 @@
+[
+    {
+        "question": "",
+        "choice": -1,
+        "typ": "radio",
+        "choices": [],
+        "answers": [
+            {
+                "answer": "",
+                "index": 0,
+                "valid": "true"
+            },
+            {
+                "answer": "",
+                "index": 1,
+                "valid": "false"
+            },
+            {
+                "answer": "",
+                "index": 2,
+                "valid": "false"
+            }
+        ]
+    }
+
+    
+    
+]
