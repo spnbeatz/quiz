@@ -20,7 +20,23 @@ export function getRandomElements(array: Question[], numElements: number) {
     }
     console.log(randomElements, 'randomelements');
 
-    const shuffledAnswers = randomElements.map((item) => {
+    const addedIndexes = randomElements.map((item) => {
+        
+        return {
+            ...item,
+            answers: item.answers.map((answer, index) => {
+                if(!answer.index){
+                    return {
+                        ...answer,
+                        index
+                    }
+                } else return answer
+
+            })
+        }
+    })
+
+    const shuffledAnswers = addedIndexes.map((item) => {
         return {
             ...item,
             answers: shuffleAnswers(item.answers)

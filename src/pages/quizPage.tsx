@@ -1,6 +1,6 @@
 import DefaultLayout from "@/layouts/default";
 import { QuestionsGroup } from "@/components/organisms/QuestionsGroup";
-import questions from '@/data/ekonomia2.json';
+import questions from '@/data/ekonomia4.json';
 import { getRandomElements, shuffleAnswers } from "@/helpers/shuffle";
 import { useEffect, useState } from "react";
 import { Question } from "@/interfaces/questionsInterfaces";

@@ -1,0 +1,22 @@
+[
+    {
+        "question": ["", "opracowali nową symulację ewolucji czarnych", "- od chmur gazów we wczesnym Wszechświecie do", "wpadającej do supermasywnej czarnej dziury"],
+        "choice": -1,
+        "typ": "fill",
+        "choices": [-1,-1,-1,-1],
+        "answers": [
+            {
+                "answer": "Astrofizycy",
+                "index": 0
+            },
+            {
+                "answer": "dziur",
+                "index": 1
+            },
+            {
+                "answer": "materii",
+                "index": 2
+            }
+        ]
+    }
+]

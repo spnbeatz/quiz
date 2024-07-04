@@ -52,6 +52,18 @@ export const QuizSummaryPage = () => {
                     if (allValid) {
                         resultPoints += pointToAdd;
                     }
+                } else if(answers[i].typ === "sort"){
+                    let allValid = true;
+                    for(let j = 0; j < answers[i].answers.length; j++){
+                        if(answers[i].answers[j].index !== j) allValid = false;
+                    }
+                    if(allValid === true) resultPoints += 1;
+                } else if(answers[i].typ === "fill"){
+                    let allValid = true;
+                    for(let j = 1; j < answers[i].choices.length; j++){
+                        if(answers[i].choices[j] !== j-1) allValid = false
+                    }
+                    if(allValid === true) resultPoints += 1;
                 }
             }
 

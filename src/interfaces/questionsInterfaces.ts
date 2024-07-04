@@ -1,13 +1,14 @@
 export interface Answer {
     answer: string,
-    valid: string,
+    valid?: string,
     index?: number
 }
 
 export interface Question {
-    question: string,
+    question: string | string[],
     choices: number[],
     typ: string,
     answers: Answer[],
+
     
 }

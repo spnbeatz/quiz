@@ -2,7 +2,7 @@
     {
         "question": "Jak czynniki niecenowe wpływają na podaż na rynku?",
         "choice": -1,
-        "typ": "multi",
+        "typ": "sort",
         "choices": [],
         "answers": [
         {
@@ -23,5 +23,4 @@
         }
         ]
     }
-
 ]

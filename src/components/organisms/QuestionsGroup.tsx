@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import { QuestionRadio } from "../molecules/QuestionRadio";
-import { QuestionMultiple } from "../molecules/QuestionMultiple";
-import { Question as QuestionInterface } from "@/interfaces/questionsInterfaces";
+import { Question as QuestionInterface, Answer } from "@/interfaces/questionsInterfaces";
+import { RenderQuestionByType } from "../molecules/RenderQuestionByType";
+
 
 export const QuestionsGroup = ({
     questions, 
@@ -13,9 +13,41 @@ export const QuestionsGroup = ({
     summary: boolean
 }) => {
 
-    const handleResult = (answerValue: number, questionIndex: number, type: string) => {
+    const handleResult = (
+        answerValue: number, 
+        questionIndex: number, 
+        type: string, 
+        sortedList?: Answer[],
+        choiceIndex?: number
+    ) => {
         if(!summary){
-            if(type == "radio"){
+            const updatedQuestions = questions.map((question, index) => {
+                if (index === questionIndex) {
+                  const questionCopy = {...question};
+                  if (type === "radio") {
+                    return { ...question, choices: [answerValue] };
+                  } else if (type === "multi") {
+                    
+                    if(questionCopy.choices.includes(answerValue)){
+                        questionCopy.choices.splice(questionCopy.choices.indexOf(answerValue),1);
+                    } else {
+                        questionCopy.choices.push(answerValue);
+                    }
+                    return questionCopy;
+                  } else if (type === "sort") {
+                    return { ...question, answers: sortedList ? sortedList : question.answers };
+                  } else if (type === "fill"){
+                    if(choiceIndex){
+                        questionCopy.choices[choiceIndex] = answerValue;
+                        return questionCopy;
+                    }
+                    
+                  }
+                }
+                return question;
+            });
+            setQuestion(updatedQuestions);
+/*             if(type == "radio"){
                 const updatedRadioQuestions = questions.map((question, index) =>
                     index === questionIndex ? { ...question, choices: [answerValue] } : question
                 );
@@ -34,45 +66,34 @@ export const QuestionsGroup = ({
                     return question;
                 }) 
                 setQuestion(updatedMultiQuestions);
-            }
+            } else if (type === "sort"){
+                const updatedSortQuestions = questions.map((question, index) => {
+                    if(index === questionIndex){
+                        return { ...question, answers: sortedList ? sortedList : question.answers }
+                    } else return question
+                    
+                })
+                setQuestion(updatedSortQuestions);
+            } else if (type === "fill"){
+                
+            } */
 
         }
 
-    }
-
-    const renderQuestionByType = (typ: string | undefined, item: QuestionInterface, index: number) => {
-        switch(typ){
-            case "radio":
-                return (
-                    <QuestionRadio 
-                        question={item} 
-                        key={index} 
-                        index={index} 
-                        answers={item.answers}
-                        summary={summary} 
-                        handleResult={handleResult}
-                    />
-                )
-            case "multi":
-                return (
-                    <QuestionMultiple
-                        question={item}
-                        key={index}
-                        index={index}
-                        answers={item.answers}
-                        summary={summary} 
-                        handleResult={handleResult}
-                    />
-                )
-            default:
-                break;
-        }
     }
 
     return (
         <div className="flex flex-col items-center justify-start sm:w-full md:w-3/4 lg:w-1/2 h-full gap-5">
             {questions.map((item: QuestionInterface, index: number) => {
-                return renderQuestionByType(item.typ, item, index);
+                return (
+                    <RenderQuestionByType
+                        key={index}
+                        index={index}
+                        item={item}
+                        summary={summary}
+                        handleResult={handleResult}
+                    />
+                );
             })}
         </div>
     )
