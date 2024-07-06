@@ -3,9 +3,6 @@ import { useDrag, useDrop } from "react-dnd";
 import { Answer } from "@/interfaces/questionsInterfaces";
 import { motion } from "framer-motion";
 
-
-const ItemType = "QUE_ITEM";
-
 interface DragItem {
   index: number;
 }

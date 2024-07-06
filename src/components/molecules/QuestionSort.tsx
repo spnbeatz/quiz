@@ -8,8 +8,6 @@ import { AnimatePresence, motion } from "framer-motion";
 import {Badge} from "@nextui-org/badge";
 import { QuestionTitle } from "../atoms/QuestionTitle";
 
-const ItemType = "QUE_ITEM";
-
 export const QuestionSort = ({
   index,
   question,

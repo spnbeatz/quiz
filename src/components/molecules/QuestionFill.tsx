@@ -59,7 +59,7 @@ export const QuestionFill = ({
                     )})}
                 </div>
                 <div className="flex flex-row items-center justify-center gap-4">
-                    {!summary && dragElements.map((item, i) => {
+                    {!summary && dragElements.map((item) => {
                         return <FillDragItem answer={item} key={item.answer}/>
                     })}
                 </div>
