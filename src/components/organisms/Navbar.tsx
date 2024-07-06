@@ -1,5 +1,5 @@
 import React from "react";
-import {  Dropdown,  DropdownTrigger,  DropdownMenu,  DropdownSection,  DropdownItem} from "@nextui-org/dropdown";
+import {  Dropdown,  DropdownTrigger,  DropdownMenu, DropdownItem} from "@nextui-org/dropdown";
 import { useNavigate } from "react-router-dom";
 import { siteConfig } from "@/config/site";
 import { Icon } from "../atoms/getIcon";

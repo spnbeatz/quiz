@@ -1,4 +1,4 @@
-import React from "react";
+
 import {CheckboxGroup, Checkbox} from "@nextui-org/checkbox";
 import { Question as QuestionInterface, Answer } from "@/interfaces/questionsInterfaces";
 import { QuestionTitle } from "../atoms/QuestionTitle";

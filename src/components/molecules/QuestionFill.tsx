@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import { Answer, Question as QuestionInterface } from "@/interfaces/questionsInterfaces";
 import { FillDragItem } from "./FillDragItem";
 import { FillDropField } from "./FillDropField";

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Question as QuestionInterface, Answer } from "@/interfaces/questionsInterfaces";
 import { RenderQuestionByType } from "../molecules/RenderQuestionByType";
 

@@ -1,5 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
-import { FillDragItem } from "./FillDragItem";
+import { useState, useRef, useEffect } from "react";
 import { useDrop } from "react-dnd";
 import { Answer, Question as QuestionInterface } from "@/interfaces/questionsInterfaces";
 import {Tooltip} from "@nextui-org/tooltip";

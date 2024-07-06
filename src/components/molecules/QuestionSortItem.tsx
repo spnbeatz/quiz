@@ -1,8 +1,7 @@
-import React, { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { useDrag, useDrop } from "react-dnd";
 import { Answer } from "@/interfaces/questionsInterfaces";
 import { motion } from "framer-motion";
-import { getEmptyImage } from "react-dnd-html5-backend";
 
 
 const ItemType = "QUE_ITEM";

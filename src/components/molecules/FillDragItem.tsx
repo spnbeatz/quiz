@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import {useRef} from "react";
 import { useDrag } from "react-dnd";
 import { Answer } from "@/interfaces/questionsInterfaces";
 
