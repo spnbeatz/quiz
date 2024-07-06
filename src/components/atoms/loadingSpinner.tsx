@@ -1,4 +1,4 @@
-import React from "react";
+
 import {Spinner} from "@nextui-org/spinner";
 
 export const LoadingSpinner = () => {

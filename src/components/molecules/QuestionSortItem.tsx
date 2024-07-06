@@ -23,8 +23,8 @@ export const QuestionSortItem = ({
 }) => {
   const ref = useRef<HTMLDivElement>(null);
 
-  const [{ isDragging }, drag, preview] = useDrag<DragItem, void, { isDragging: boolean }>({
-    type: ItemType,
+  const [{ isDragging }, drag] = useDrag<DragItem, void, { isDragging: boolean }>({
+    type: "QUE_ITEM",
     item: { index },
     previewOptions: {
         captureDraggingState: true,
@@ -38,7 +38,7 @@ export const QuestionSortItem = ({
   });
 
   const [, drop] = useDrop<DragItem, void>({
-    accept: ItemType,
+    accept: "QUE_ITEM",
     hover: (item, monitor) => {
       if (!ref.current) return;
       const dragIndex = item.index;

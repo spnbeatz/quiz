@@ -27,13 +27,9 @@ const getItemStyles = (currentOffset: { x: number, y: number } | null) => {
 
 export const CustomDragLayer: React.FC = () => {
   const {
-    item,
-    itemType,
     currentOffset,
     isDragging,
   } = useDragLayer((monitor) => ({
-    item: monitor.getItem(),
-    itemType: monitor.getItemType(),
     currentOffset: monitor.getSourceClientOffset(),
     isDragging: monitor.isDragging(),
   }));

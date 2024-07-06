@@ -6,7 +6,7 @@ interface DragItem {
     answer: Answer
 }
 
-export const FillDragItem = ({answer, index}: {answer: Answer, index: number}) => {
+export const FillDragItem = ({answer}: {answer: Answer}) => {
 
     const ref = useRef<HTMLDivElement>(null);
 
