@@ -6,18 +6,28 @@ import { useEffect, useState } from "react";
 import { Question } from "@/interfaces/questionsInterfaces";
 import { LoadingSpinner } from "@/components/atoms/loadingSpinner";
 import { Button } from "@nextui-org/button";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import { chooseData } from "@/helpers/routeParams";
 
 export default function QuizPage() {
 
   const navigate = useNavigate();
 
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[] | null>(null);
+  const [ title, setTitle ] = useState<string | null>(null);
+
+  const { param } = useParams();
 
   useEffect(() => {
-    const shuffled = getRandomElements(temat.questions, 5);
+    const data = chooseData(param);
+    if(data){
+      setTitle(data.title);
+      const shuffled = getRandomElements(data.questions, 5);
+      setShuffledQuestions(shuffled);
+    }
+    
 
-    setShuffledQuestions(shuffled);
+    
   },[]);
 
   useEffect(()=> {

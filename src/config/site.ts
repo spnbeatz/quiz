@@ -17,5 +17,16 @@ export const siteConfig = {
       url: "/",
       icon: "pie-chart"
     }
+  ],
+  subjectItems: [
+    {
+      title: "Ekonomia"
+    },
+    {
+      title: "Matematyka"
+    },
+    {
+      title: "Informatyka"
+    }
   ]
 }
