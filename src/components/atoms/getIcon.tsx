@@ -1,5 +1,5 @@
 import React from "react";
-import { List, Fish, PieChart } from "react-ionicons";
+import { List, Fish, PieChart, StatsChart, EllipsisVertical, HardwareChip, AddCircle, InformationCircle } from "react-ionicons";
 
 interface IconType {
     name: string,
@@ -24,7 +24,12 @@ export const Icon:React.FC<IconType> = ({name, size, color}) => {
         case "list": return <List width={getSize(size)} height={getSize(size)} color={color} />
         case "fish": return <Fish width={getSize(size)} height={getSize(size)} color={color} />
         case "pie-chart": return <PieChart width={getSize(size)} height={getSize(size)} color={color} />
-
+        case "stats-chart": return <StatsChart width={getSize(size)} height={getSize(size)} color={color} />
+        case "elipsis-vertical": return <EllipsisVertical width={getSize(size)} height={getSize(size)} color={color} />
+        case "hardware-chip": return <HardwareChip width={getSize(size)} height={getSize(size)} color={color} />
+        case "add-circle": return <AddCircle width={getSize(size)} height={getSize(size)} color={color} />
+        case "list": return <List width={getSize(size)} height={getSize(size)} color={color} />
+        case "info": return <InformationCircle width={getSize(size)} height={getSize(size)} color={color} />
         default: return <div />
             
     }

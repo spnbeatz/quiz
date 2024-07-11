@@ -1,0 +1,10 @@
+[
+    {
+        "id": "1",
+        "name": "Ekonomia",
+        "image": "ekonomia",
+        "icon": "stats-chart",
+        "description": "Ekonomia - nauka społeczna analizująca oraz opisująca produkcję, dystrybucję oraz konsumpcję dóbr i usług. Nie jest nauką ścisłą, lecz posługuje się aparatem matematycznym (głównie metody ilościowe) nauka społeczna analizująca oraz opisująca produkcję, dystrybucję oraz konsumpcję dóbr i usług. Nie jest nauką ścisłą, lecz posługuje się aparatem matematycznym (głównie metody ilościowe)",
+        "topics": ["1"]
+    }
+]

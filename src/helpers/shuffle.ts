@@ -9,7 +9,7 @@ export function shuffleAnswers(array: Answer[]) {
 }
 
 export function getRandomElements(array: Question[], numElements: number) {
-    let copyArray = array.slice();
+    let copyArray = [...array];
     let randomElements = [];
 
     while (randomElements.length < numElements && copyArray.length > 0) {

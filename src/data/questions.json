@@ -1,0 +1,266 @@
+[
+    {
+        "id": "1",
+        "question": "Czym jest potrzeba?",
+        "choice": -1,
+        "typ": "radio",
+        "choices": [],
+        "answers": [
+            {
+                "answer": "Potrzeba jest stanem braku, który odczuwany jest przez pojedyńczego człowieka, którego uzupełnienie jest warunkiem jego egzystencji, rozwoju lub satysfakcji",
+                "index": 0,
+                "valid": "true"
+            },
+            {
+                "answer": "Potrzeba jest wyłącznie luksusem, który nie wpływa na podstawowe funkcjonowanie człowieka.",
+                "index": 1,
+                "valid": "false"
+            },
+            {
+                "answer": "Potrzeba to stan pełnej satysfakcji, w którym człowiek ma wszystko, czego potrzebuje.",
+                "index": 2,
+                "valid": "false"
+            },
+            {
+                "answer": "Potrzeba jest cechą wyłącznie psychologiczną, bez wpływu na fizyczne aspekty życia człowieka.",
+                "index": 3,
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "question": "Na jakie kategorie dzielimy dobra?",
+        "choice": -1,
+        "typ": "multi",
+        "choices": [],
+        "answers": [
+            {
+                "answer": "Dobra wolne",
+                "index": 0,
+                "valid": "true"
+            },
+            {
+                "answer": "Dobra rzadkie",
+                "index": 1,
+                "valid": "true"
+            },
+            {
+                "answer": "Dobra luksusowe",
+                "index": 2,
+                "valid": "false"
+            },
+            {
+                "answer": "Dobra niezbędne",
+                "index": 2,
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "question": "Które z tych czynników są zaliczane do podstawowych czynników produkcji?",
+        "choice": -1,
+        "typ": "multi",
+        "choices": [],
+        "answers": [
+            {
+                "answer": "ziemia",
+                "index": 0,
+                "valid": "true"
+            },
+            {
+                "answer": "praca",
+                "index": 1,
+                "valid": "true"
+            },
+            {
+                "answer": "kapitał",
+                "index": 2,
+                "valid": "true"
+            },
+            {
+                "answer": "technologia",
+                "index": 2,
+                "valid": "true"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "question": ["Problem rzadkości - oznacza on",", czyli", ",a tym samym", "w stosunku do","."],
+        "choice": -1,
+        "typ": "fill",
+        "choices": [-1, -1 ,-1 ,-1, -1],
+        "answers": [
+            {
+                "answer": "niedostatek",
+                "index": 0,
+                "valid": ""
+            },
+            {
+                "answer": "rzadkość zasobów",
+                "index": 1,
+                "valid": ""
+            },
+            {
+                "answer": "rzadkość dóbr",
+                "index": 2,
+                "valid": ""
+            },
+            {
+                "answer": "potrzeb",
+                "index": 3,
+                "valid": ""
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "question": "Co to jest koszt alternatywny?",
+        "choice": -1,
+        "typ": "radio",
+        "choices": [],
+        "answers": [
+            {
+                "answer": "To hipotetyczny koszt polegający na utracie korzyści z innego sposobu wykorzystania danych zasobów.",
+                "index": 0,
+                "valid": "true"
+            },
+            {
+                "answer": "To koszt wynikający z inflacji, który wpływa na cenę zasobów w przyszłości.",
+                "index": 1,
+                "valid": "false"
+            },
+            {
+                "answer": "To koszt związany z amortyzacją zasobów materialnych, takich jak maszyny i urządzenia.",
+                "index": 2,
+                "valid": "false"
+            },
+            {
+                "answer": "To dodatkowy koszt wynikający z podatków nałożonych na zasoby.",
+                "index": 3,
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "question": "Jakie decyzje ekonomiczne trzeba podejmować w obliczu rzadkości zasobów?",
+        "choice": -1,
+        "typ": "multi",
+        "choices": [],
+        "answers": [
+            {
+                "answer": "co, ile i jak produkować?",
+                "index": 0,
+                "valid": "true"
+            },
+            {
+                "answer": "jak podzielić uzyskane dochody?",
+                "index": 1,
+                "valid": "true"
+            },
+            {
+                "answer": "co i ile konsumować?",
+                "index": 2,
+                "valid": "true"
+            },
+            {
+                "answer": "jakie cele zrealizować ze środków finansowych władz centralnych kraju oraz władz lokalnych?",
+                "index": 3,
+                "valid": "treu"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "question": "Ekonomia to nauka o gospodarowaniu, czyli o tym, jak ludzie jako jednostki i społeczności postępują w sytuacji rzadkości zasobów i dóbr w stosunku do potrzeb. Jak jest sformułowane inne podejście do definicji ekonomii?",
+        "choice": -1,
+        "typ": "radio",
+        "choices": [],
+        "answers": [
+            {
+                "answer": "Ekonomia to nauka o zjawiskach gospodarczych. W takim ujęciu, ekonomii nie interesują kwestie liczby dzieci w rodzinie czy decyzje o zawarciu małżeństwa, natomiast kluczowa jest gospodarka, zjawiska gospodarcze oraz fazy działalności gospodarczej: produkcja, wymiana, podział (dochodów) i konsumpcja.",
+                "index": 0,
+                "valid": "true"
+            },
+            {
+                "answer": "Ekonomia to nauka wyłącznie o zarządzaniu finansami przedsiębiorstw, koncentrująca się na optymalizacji kosztów i maksymalizacji zysków.",
+                "index": 1,
+                "valid": "false"
+            },
+            {
+                "answer": "Ekonomia zajmuje się badaniem wpływu polityki na kulturę, język i religię w społeczeństwach różnych krajów.",
+                "index": 2,
+                "valid": "false"
+            },
+            {
+                "answer": "Ekonomia to nauka o systemach matematycznych używanych do prognozowania trendów astrologicznych i ich wpływu na rynki finansowe.",
+                "index": 3,
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "question": "Kto jest uważany za 'ojca' ekonomii jako nauki?",
+        "choice": -1,
+        "typ": "radio",
+        "choices": [],
+        "answers": [
+            {
+                "answer": "Adam Smith",
+                "index": 0,
+                "valid": "true"
+            },
+            {
+                "answer": "John Keynes",
+                "index": 1,
+                "valid": "false"
+            },
+            {
+                "answer": "Karl Marx",
+                "index": 2,
+                "valid": "false"
+            },
+            {
+                "answer": "Milton Friedman",
+                "index": 3,
+                "valid": "false"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "question": "W ekonomii głównego nurtu, przyjmuje się założenie, że podmiot gospodarujący jest racjonalny, to założenie opiera się na dwóch przesłankach:",
+        "choice": -1,
+        "typ": "multi",
+        "choices": [],
+        "answers": [
+            {
+                "answer": "podmiot gospodarujący wie, czego chce, tzn. zna swoje cele i ich hierarchię",
+                "index": 0,
+                "valid": "true"
+            },
+            {
+                "answer": "podmiot zbiera i przetwarza informacje potrzebne do podjęcia decyzji",
+                "index": 1,
+                "valid": "true"
+            },
+            {
+                "answer": "podmiot działa wyłącznie zgodnie z zasadą maksymalizacji czasu wolnego",
+                "index": 2,
+                "valid": "false"
+            },
+            {
+                "answer": "podmiot dąży do minimalizacji liczby transakcji w swojej działalności gospodarczej",
+                "index": 3,
+                "valid": "false"
+            }
+        ]
+    }
+    
+    
+
+] 

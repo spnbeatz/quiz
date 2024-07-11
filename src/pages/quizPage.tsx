@@ -14,15 +14,14 @@ export default function QuizPage() {
   const navigate = useNavigate();
 
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[] | null>(null);
-  const [ title, setTitle ] = useState<string | null>(null);
 
-  const { param } = useParams();
+  const { topicId } = useParams();
 
   useEffect(() => {
-    const data = chooseData(param);
+    const data = chooseData(topicId);
     if(data){
-      setTitle(data.title);
-      const shuffled = getRandomElements(data.questions, 5);
+      console.log(data, "data do shuffled")
+      const shuffled = getRandomElements(data, 5);
       setShuffledQuestions(shuffled);
     }
     
