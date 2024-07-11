@@ -8,6 +8,7 @@ import { CardHeader } from "@/components/molecules/CardHeader";
 import { ProgressBar } from "@/components/atoms/ProgressBar";
 import { TopicListItem } from "@/components/molecules/TopicListItem";
 import { Icon } from "@/components/atoms/getIcon";
+import {Divider} from "@nextui-org/divider";
 
 interface SubjectType {
     id: string; name: string; image: string; icon: string; topics: string[];
@@ -75,6 +76,23 @@ export const SubjectPage = () => {
                 </div>
                 <div className="h-full w-2/4 overflow-y-scroll bg-white rounded-md shadow-medium scrollbar-hide flex flex-col justify-between items-center">
                     <CardHeader name="Tematy" icon="list" withBackground={false} color="black"/>
+                    <div className="w-full flex text-black justify-between items-center px-9 text-xs font-semibold">
+                        <p className="w-1/3">Nazwa tematu</p>
+                        <p className="w-1/12">Ilość pytań</p>
+                        <p className="w-1/12 ">Ilość fiszek</p>
+                        <p className="w-2/5 ">Progres</p>
+                    </div>
+                    <div className="w-full h-full p-5 overflow-y-scroll">
+                        {topics.map((item: string, index: number) => {
+                            return (
+                                <div>
+                                    <TopicListItem title={item} key={item} index={index}/>
+                                    <Divider />
+                                </div>
+                                
+                            )
+                        })}
+                    </div>
                 </div>
                 <div className="w-1/4 h-full bg-white rounded-md shadow-medium">
 

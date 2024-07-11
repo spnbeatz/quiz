@@ -27,7 +27,11 @@ export const QuizMain = () => {
 
     return (
         <DefaultLayout>
-            <div className="flex flex-row justify-start items-center h-full w-screen gap-6 px-6 mt-8">
+            <div className="w-full flex gap-2 mb-2 items-center">
+                <p className="big-header">Twoje przedmioty</p>
+                
+            </div>
+            <div className="flex flex-row justify-start items-center h-full w-screen gap-6 px-10">
                 {user.subjects.map((item: string, index: number) => {
                     
                     return (
